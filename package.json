@@ -1,54 +1,26 @@
 {
-  "_from": "react-native-bacon-circle-image",
-  "_id": "react-native-bacon-circle-image@1.0.0",
-  "_inBundle": false,
-  "_integrity": "sha512-t7A/qb9hW7PoaeY+S65S92l4W4p+pnWI3zPCtOVKgLm6r3fDENNY2UOdI9wl7Mngb32Ql/NXzGdmZ/DBXK2DGg==",
-  "_location": "/react-native-bacon-circle-image",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "react-native-bacon-circle-image",
-    "name": "react-native-bacon-circle-image",
-    "escapedName": "react-native-bacon-circle-image",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
+  "name": "react-native-bacon-circle-image",
+  "version": "1.0.0",
+  "description": "react native bacon circle image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/react-native-bacon-circle-image/-/react-native-bacon-circle-image-1.0.0.tgz",
-  "_shasum": "74f8a74f0d9f2732cc55bc65eb9d6adb668c7c1d",
-  "_spec": "react-native-bacon-circle-image",
-  "_where": "/Users/kaogaau/Documents/Bacon/bacon",
-  "author": {
-    "name": "Tsao"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaymingmobile/react-native-bacon-circle-image.git"
   },
-  "bugs": {
-    "url": "https://github.com/tsaohucn/react-native-bacon-circle-image/issues"
-  },
-  "bundleDependencies": false,
   "dependencies": {
     "prop-types": "^15.5.10",
     "react-native-fast-image": "1.0.0"
   },
-  "deprecated": false,
-  "description": "react native bacon circle image",
-  "homepage": "https://github.com/kaymingmobile/react-native-bacon-circle-image#readme",
   "keywords": [
-    "react native image bacon circle image"
+    "react native image placeholder",
   ],
+  "author": "Tsao",
   "license": "ISC",
-  "main": "index.js",
-  "name": "react-native-bacon-circle-image",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kaymingmobile/react-native-bacon-circle-image.git"
+  "bugs": {
+    "url": "https://github.com/kaymingmobile/react-native-bacon-circle-image/issues"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "1.0.0"
+  "homepage": "https://github.com/kaymingmobile/react-native-bacon-circle-image#readme"
 }
