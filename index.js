@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Image, ActivityIndicator, View, TouchableOpacity } from 'react-native';
-import FastImage from 'react-native-fast-image'
+import FastImage from 'react-native-fast-image';
 
-class ImageLoad extends React.Component {
+class CircleImage extends React.Component {
   static propTypes = {
     isShowActivity: PropTypes.bool,
   };
