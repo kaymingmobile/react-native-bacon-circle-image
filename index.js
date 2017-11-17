@@ -137,4 +137,4 @@ class ImageLoad extends React.Component {
   }
 }
 
-export default ImageLoad;
+export default CircleImage;
