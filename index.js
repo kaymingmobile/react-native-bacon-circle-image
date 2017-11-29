@@ -101,15 +101,14 @@ class CircleImage extends React.Component {
     return(
       <TouchableOpacity disabled={ disabled } activeOpacity={1} style={styles.view} onPress={ onPress }>
         <View style={styles.circle} >
-          <FastImage
+          <Image
             onError={this.onError.bind(this)}
             onLoad={this.onLoad.bind(this)}
             style={[styles.backgroundImage, style]}
             source={source}
             resizeMode={resizeMode}
             borderRadius={borderRadius}
-          >
-          </FastImage>
+          />
           { !this.state.isLoaded &&
           <View 
             style={styles.viewImageStyles}
